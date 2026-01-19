@@ -5,21 +5,12 @@
 # Dependencies (worden in container geïnstalleerd)
 node_modules
 
-# Tests (niet nodig in productie image)
-tests
+# Coverage (niet nodig in image)
 coverage
-*.test.js
 
 # IDE
 .idea
 .vscode
-
-# Docs
-*.md
-!README.md
-
-# CI/CD
-.github
 
 # Local env
 .env
