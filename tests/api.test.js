@@ -14,7 +14,7 @@ describe('API Endpoints', () => {
       
       expect(res.statusCode).toBe(200);
       expect(res.body).toHaveProperty('message');
-      expect(res.body.message).toContain('Welcome to DevOpsEindopdracht DemoTest');
+      expect(res.body.message).toContain('Welcome to DevOpsEindopdracht DemoTest1');
       expect(res.body).toHaveProperty('version');
       expect(res.body).toHaveProperty('environment');
     });

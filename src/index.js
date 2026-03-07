@@ -7,7 +7,7 @@ app.use(express.json());
 // Routes
 app.get('/', (req, res) => {
   res.json({
-    message: 'Welcome to DevOpsEindopdracht DemoTest',
+    message: 'Welcome to DevOpsEindopdracht DemoTest1',
     version: process.env.APP_VERSION || '1.0.0',
     environment: process.env.NODE_ENV || 'development'
   });
