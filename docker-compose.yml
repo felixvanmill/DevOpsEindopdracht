@@ -21,6 +21,7 @@ services:
     networks:
       - monitoring
 
+
   # Prometheus - Metrics Collection
   prometheus:
     image: prom/prometheus:v2.48.0
